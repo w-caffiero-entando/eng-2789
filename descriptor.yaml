@@ -1,0 +1,13 @@
+code: jhipster-bundle
+description: This is the jhipster bundle
+
+components:
+  plugins:
+    - plugins/jhipster-plugin.yaml
+
+  widgets:
+    - ui/widgets/city/tableWidget/city-table-widget-descriptor.yaml
+    - ui/widgets/city/detailsWidget/city-details-widget-descriptor.yaml
+    - ui/widgets/city/formWidget/city-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
